@@ -17,8 +17,17 @@
 
             /*  example of block comment */
             int a = GetNumber("Enter the first number :");
-            int b = GetNumber("Enter the second number :");
-            int result = Add( a, b );
+            int b;
+            bool isSecondNumberOk  = GetNumber2("Enter the second number :", out b);
+            if (isSecondNumberOk)
+            {
+                Console.WriteLine("Got the second number successfully!");
+            }
+            else
+            {
+                Console.WriteLine("Taking the DEFAULT value of integer!");
+            }
+            int result = Add(a, b);
 
             Console.WriteLine("Sum of {0} and {1} is {2}", a, b, result);
         }
@@ -53,10 +62,26 @@
             string? input_var = Console.ReadLine();
             if (input_var is not null && input_var != "")
             {
+                // int.Parse() will throw a FormatException
                 return int.Parse(input_var);
             }
 
             return -1;
         }
+
+
+        private static bool GetNumber2(string prompt, out int result)
+        {
+            Console.Write(prompt);
+            string? input_var = Console.ReadLine();
+
+            bool isSuccessful = int.TryParse(input_var, out result);
+            if (isSuccessful)
+            {
+                Console.WriteLine("Valid input");
+            }
+            return isSuccessful;
+        }
+
     }
 }
