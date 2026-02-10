@@ -1,5 +1,12 @@
 # CSharpLabs
 
+## Programming Types
+- Statement Driven Programming
+- Procedural Programming (sub-routines & functions)
+- Object Oriented Programming Techniques(OOPs)
+- Event Driven Programming
+
+
 ## Common Type System (CTS)
 - Value Types
 	- enum

@@ -11,7 +11,11 @@
   <Project Path="Demo_Destructor/Demo_Destructor.csproj" Id="1247ceaf-d693-4d6b-b90f-bff5c3560577" />
   <Project Path="Demo_Destructor_DotNet10/Demo_Destructor_DotNet10.csproj" Id="af41d673-cdd4-4b38-9247-9a81d8c55777" />
   <Project Path="Demo_Destructor_IDisposable/Demo_Destructor_IDisposable.csproj" Id="bece7a0d-369a-4f3e-a7fe-28a98c834659" />
+  <Project Path="Demo_Event/Demo_Event.csproj" Id="2664c7d4-2595-4bd3-a1f2-686c19f85d75" />
+  <Project Path="Demo_Exceptions/Demo_Exceptions.csproj" Id="23f6fd77-4a72-4762-96fc-c6cef9116d42" />
+  <Project Path="Demo_Exceptions_ClassLib/Demo_Exceptions_ClassLib.csproj" Id="eb2449a7-efcd-4c00-9161-d59a831adc75" />
   <Project Path="Demo_Extensions/Demo_Extensions.csproj" Id="f5e3578c-36b7-4421-b770-bc5f2c6bf36a" />
+  <Project Path="Demo_Generics/Demo_Generics.csproj" Id="e5893d0c-15b9-4d28-9f58-e1186789b809" />
   <Project Path="Demo_IComparable/Demo_IComparable.csproj" Id="6eefbae5-31de-454d-b820-55ff453381d5" />
   <Project Path="Demo_IEnumerable/Demo_IEnumerable.csproj" Id="b94387d2-dd70-4815-8ab6-7099e677e3e8" />
   <Project Path="Demo_IEnumerator/Demo_IEnumerator.csproj" Id="353b64b9-8c83-497d-94ac-3efb208fe632" />
@@ -19,4 +23,5 @@
   <Project Path="Demo_Interface/Demo_Interface.csproj" Id="f2a609ff-1fe2-4215-b8e3-4770d1e098b8" />
   <Project Path="Demo_Interface02/Demo_Interface02.csproj" Id="0d3c2dc4-acb8-4164-88de-c75996b614fe" />
   <Project Path="Demo_Interface03/Demo_Interface03.csproj" Id="6a1e122c-7152-4899-b578-bcdad6656b9f" />
+  <Project Path="Demo_ObservableObjects/Demo_ObservableObjects.csproj" Id="f132ce23-321b-48cc-9926-4dd340f9eb09" />
 </Solution>
