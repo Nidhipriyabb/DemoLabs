@@ -1,0 +1,79 @@
+I have completed the backend of an enterprise-grade ASP.NET Core Web API application using .NET 10 and EF Core (Code-First, SQL Server). 
+
+The backend includes: 
+- Category and Product modules 
+- CRUD operations 
+- Optimistic concurrency using RowVersion 
+- Unique constraints and check constraints 
+- DTO pattern (Create, Update, Read, Delete DTOs) 
+- Result Pattern (Result, Result<T>) 
+- RFC 7807 ProblemDetails and ValidationProblemDetails 
+- Structured logging using Serilog (Console + SQL + SEQ) 
+- Stored Procedure (Category-wise Product Count report) 
+- View (Products with Category projection) 
+- Full xUnit integration test suite 
+- SQLite in-memory fallback for integration testing 
+
+The backend is fully working and tested. I now want to build the frontend using Angular 22. 
+
+IMPORTANT: 
+This is a teaching-focused project meant to upgrade beginner developers to advanced-level frontend engineers (not experts, but strong intermediate level). 
+
+The Angular application should: 
+- Be structured in enterprise style - Use standalone components (Angular 22 default) 
+- Use strict typing 
+- Follow clean architecture principles 
+- Use proper folder structure (core, shared, features, etc.) 
+- Use Angular services for API communication 
+- Implement proper HTTP error handling 
+- Handle ProblemDetails responses from the API 
+- Implement concurrency handling using RowVersion 
+- Be ready for JWT authentication (to be added later) 
+- Support environment-based API URLs - Use reactive forms 
+- Demonstrate reusable components 
+- Be scalable 
+- Include tests for Angular using the existing test framework setup in the Angular Project template.  
+- Given a choice, prefer ES6 instead of TypeScript, if possible. 
+- Add in-line comments wherever necessary 
+- Add JSDoc style comments for documentation needs 
+- Use BootStrap 5.3 for UI design in the Angular project. 
+
+I want us to proceed step-by-step, not generate everything at once. Please begin with: 
+1. High-level Angular architecture design for this project 
+2. Recommended folder structure 
+3. Angular CLI setup commands 
+4. Required Angular dependencies 
+5. Project configuration decisions (routing, strict mode, etc.) 
+6. Explanation of why each architectural choice is made. We will then proceed module by module. 
+
+Important: 
+- Keep responses structured 
+- Do not generate huge walls of code 
+- Move in controlled steps 
+- Assume this is enterprise-grade training 
+- Explain decisions clearly 
+
+Please note: 
+I will be using Visual Studio 2026 for development - not Visual Studio Code. So, if you are giving me instructions (especially CLI), please give me both options - how to do it in VS2026, and also the CLI. 
+
+What I have completed so far:
+- Installed angular 
+	(npm install -g @angular/cli)
+- Created Project 
+	(ng new WebApiWithAngular-UI --standalone --routing --strict --style=css
+
+Here are the following files from the generated Angular Project Folder:
+------------------------------------------------
+/angular.json
+/package.json
+/tsconfig.json
+/tsconfig.app.json
+/tsconfig.spec.json
+/src/main.ts
+/src/app/app.config.ts
+/src/app/app.ts
+/src/app/app.routs.ts
+------------------------------------------------
+
+If you wish to take a look at any of the other existing code, please feel free to ask, before proceeding on.
+
